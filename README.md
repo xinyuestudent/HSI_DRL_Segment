@@ -1,10 +1,12 @@
-# 🌈 LPSFormer: Learnable Superpixel-Guided Dual-Modal Transformer for Fair and Disentangled Representation Learning
+# 🌈 Interpretable and Fair Spectral–Spatial Disentangled Representation Learning with Learnable Hierarchical Superpixel Guidance for Hyperspectral Analysis
 
 ## 🌐 Overview
-This repository presents **LPSFormer**, a **Learnable Superpixel-Guided Dual-Modal Transformer** designed for **disentangled representation learning (DRL)** in multimodal scenarios.  
-The framework explicitly **decouples visible (RGB) and non-visible (NIR/HSI) spectral data** into two independent yet cooperative streams, allowing the model to learn **fair, interpretable, and group-invariant** spectral–spatial representations.
+This repository presents **LHSFormer**, a Learnable Hierarchical Superpixel-guided Dual-Attention Transformer that achieves end-to-end spectral–spatial disentanglement.
+Specifically, a 3D convolutional stem first extracts joint spectral–spatial embeddings, while a learnable hierarchical superpixel (LHS) module adaptively clusters pixels into multi-scale, differentiable superpixels.
+These superpixels guide a dual-branch Transformer encoder, which decouples spectral and spatial dependencies via two complementary attention mechanisms.
+A gate-controlled fusion unit is then introduced to adaptively balance spectral and spatial cues, enabling fine-grained boundary preservation and context enhancement.
 
-By integrating a **learnable hierarchical superpixel module** and a **dual-attention disentanglement Transformer**, LPSFormer achieves transparent and robust feature extraction—bridging **fairness, explainability, and high-dimensional spectral understanding**.
+By integrating a **learnable hierarchical superpixel module** and a **dual-attention disentanglement Transformer**, LHSFormer achieves transparent and robust feature extraction—bridging **fairness, explainability, and high-dimensional spectral understanding**.
 
 ---
 
