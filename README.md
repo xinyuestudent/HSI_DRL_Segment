@@ -1,5 +1,5 @@
 # 🌈 Interpretable and Fair Spectral–Spatial Disentangled Representation Learning with Learnable Hierarchical Superpixel Guidance for Hyperspectral Analysis
-
+# The code will be open-sourced after the article is accepted.
 ## 🌐 Overview
 This repository presents **LHSFormer**, a Learnable Hierarchical Superpixel-guided Dual-Attention Transformer that achieves end-to-end spectral–spatial disentanglement.
 Specifically, a 3D convolutional stem first extracts joint spectral–spatial embeddings, while a learnable hierarchical superpixel (LHS) module adaptively clusters pixels into multi-scale, differentiable superpixels.
